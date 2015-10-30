@@ -1,3 +1,4 @@
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-AndroidFileExplorer-brightgreen.svg?style=flat)](http://android-arsenal.com/details/3/2704)
 # AndroidFileExplorer
 It's a simple android File Explorer, here you can see all the internal and external file. Here I can set only choose PDF, DOC, DOCX file if exists in the file folder.when you import in your Eclipse project add Appcompact Lib 7
 
