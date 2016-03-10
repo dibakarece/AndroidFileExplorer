@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#35475D</color>
+    <color name="primary_dark">#35475D</color>
+    <color name="ColorPrimary">#35475D</color>
+    <color name="ColorPrimaryDark">#35475D</color>
+
+    <!-- Theme -->
+    <color name="theme_color">#35475D</color>
+    <color name="gplusbtncolor">#e23737</color>
+    <color name="joblist_bg_color">#d0dae6</color>
+
+    <!-- TabSlider -->
+
+    <color name="background_tab_pressed">#1F497D</color>
+    <color name="color_topbar">#8aae44</color>
+    <color name="color_editboxcolor">#adda55</color>
+    <color name="color_background">#1F497D</color>
+
+    <!-- Pull to refresh color -->
+    <color name="pull_blue_bright">#ff00ddff</color>
+    <color name="pull_green_light">#ff99cc00</color>
+    <color name="pull_orange_light">#ffffbb33</color>
+    <color name="pull_red_light">#ffff4444</color>
+    <color name="gray_transparant">#753f3f3f</color>
+    <color name="tabselectcolor">#E84C3D</color>
+
+    <!-- JobList -->
+    <color name="job_subject">#35475D</color>
+    <color name="job_name">#858585</color>
+    <color name="job_Date">#35475D</color>
+    <color name="job_contain">#6F6D6E</color>
+
+</resources>
