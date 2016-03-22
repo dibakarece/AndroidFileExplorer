@@ -13,12 +13,6 @@ import com.getdirectory.DirectoryFragment.DocumentSelectActivityDelegate;
 
 public class MainActivity extends AppCompatActivity {
 
-    @Override
-    protected void onDestroy() {
-        mDirectoryFragment.onFragmentDestroy();
-        super.onDestroy();
-    }
-
     private Toolbar toolbar;
     private FragmentManager fragmentManager = null;
     private FragmentTransaction fragmentTransaction = null;
@@ -63,7 +57,12 @@ public class MainActivity extends AppCompatActivity {
         fragmentTransaction.commit();
 
     }
-
+	
+    @Override
+    protected void onDestroy() {
+        mDirectoryFragment.onFragmentDestroy();
+        super.onDestroy();
+    }
 
     @Override
     public void onBackPressed() {
